@@ -1,7 +1,7 @@
 {
   "name": "phantom-ownpropertynames",
   "main": "index.js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Fix Object.getOwnPropertyNames behavior for functions in PhantomJS 1.9",
   "license": "MIT",
   "repository": "bendrucker/phantom-ownpropertynames",
