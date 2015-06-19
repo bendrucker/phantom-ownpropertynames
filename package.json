@@ -1,0 +1,41 @@
+{
+  "name": "phantom-ownpropertynames",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Fix Object.getOwnPropertyNames behavior for functions in PhantomJS 1.9",
+  "license": "MIT",
+  "repository": "bendrucker/phantom-ownpropertynames",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "standard && tape test.js && npm run test-phantom",
+    "test-phantom": "zuul --phantom -- test.js"
+  },
+  "keywords": [
+    "phantom",
+    "shim",
+    "patch",
+    "object",
+    "function",
+    "own",
+    "property",
+    "names"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "phantomjs": "~1.9.17",
+    "standard": "^4.0.0",
+    "tape": "^4.0.0",
+    "zuul": "~3.0.0"
+  },
+  "files": [
+    "index.js",
+    "readme.md"
+  ]
+}
