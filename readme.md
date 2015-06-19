@@ -19,7 +19,7 @@ require('phantom-ownpropertynames/implement')
 
 Or just get the patched function directly:
 
-```
+```js
 var getOwnPropertyNames = require('phantom-ownpropertynames')
 getOwnPropertyNames({foo: 'bar'})
 // => ['foo']
