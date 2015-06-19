@@ -9,7 +9,6 @@
 $ npm install --save phantom-ownpropertynames
 ```
 
-
 ## Usage
 
 Detect whether `Object.getOwnPropertyNames` is broken and shim if it is:
