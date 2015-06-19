@@ -36,6 +36,9 @@
   },
   "files": [
     "index.js",
+    "defined.js",
+    "detect.js",
+    "implement.js",
     "readme.md"
   ]
 }
