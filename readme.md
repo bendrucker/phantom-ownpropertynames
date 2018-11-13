@@ -1,4 +1,4 @@
-# phantom-ownpropertynames [![Build Status](https://travis-ci.org/bendrucker/phantom-ownpropertynames.svg?branch=master)](https://travis-ci.org/bendrucker/phantom-ownpropertynames)
+# phantom-ownpropertynames [![Build Status](https://travis-ci.org/bendrucker/phantom-ownpropertynames.svg?branch=master)](https://travis-ci.org/bendrucker/phantom-ownpropertynames) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/phantom-ownpropertynames.svg)](https://greenkeeper.io/)
 
 > Fix `Object.getOwnPropertyNames` behavior for functions in PhantomJS 1.9
 
